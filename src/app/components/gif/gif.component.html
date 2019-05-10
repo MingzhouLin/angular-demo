@@ -1,0 +1,7 @@
+<video #video controls>
+</video>
+
+
+<select #selector name="source" (change)='ngChange()'>
+  <option *ngFor="let item of value" [value]="item">{{item}}</option>
+</select>
